@@ -1,8 +1,8 @@
-package edu.tdd.example.controllers;
+package edu.tdd.example.ut.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import edu.tdd.example.domain.Product;
-import edu.tdd.example.services.ProductService;
+import edu.tdd.example.ut.services.ProductService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -26,7 +26,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import static org.mockito.Mockito.doReturn;
 
-@SpringBootTest
+@SpringBootTest(classes = edu.tdd.example.SpringTddExampleApplication.class)
 @AutoConfigureMockMvc
 @ExtendWith({SpringExtension.class})
 public class ProductControllerTest {

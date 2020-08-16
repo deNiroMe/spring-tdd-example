@@ -1,7 +1,7 @@
-package edu.tdd.example.services;
+package edu.tdd.example.ut.services;
 
 import edu.tdd.example.domain.Product;
-import edu.tdd.example.repositories.ProductRepository;
+import edu.tdd.example.ut.repositories.ProductRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

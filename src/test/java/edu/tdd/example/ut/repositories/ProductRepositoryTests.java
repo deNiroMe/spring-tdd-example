@@ -1,4 +1,4 @@
-package edu.tdd.example.repositories;
+package edu.tdd.example.ut.repositories;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import edu.tdd.example.domain.Product;
